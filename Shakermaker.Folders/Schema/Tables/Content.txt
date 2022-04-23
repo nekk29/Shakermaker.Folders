@@ -1,0 +1,4 @@
+﻿In this folder you can add scripts with changes related to the tables and columns:
+- Table creation scripts (keys, constraints, indexes)
+- Table alter scripts (keys, constraints, indexes)
+- Table drop scripts (keys, constraints, indexes)

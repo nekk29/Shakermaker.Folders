@@ -1,0 +1,7 @@
+﻿In this folder you can add scripts with the settings per environment e.g.:
+- Connection Strings
+- Services Urls
+- Api Urls
+- Users
+- Permissions
+The scripts should start with the environment prefix + "-" (parameter "-e" or "--environment" used in the tool)

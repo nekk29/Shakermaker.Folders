@@ -1,0 +1,4 @@
+﻿In this folder you can add scripts with changes related to the functions:
+- Function creation scripts
+- Function alter scripts
+- Function drop scripts

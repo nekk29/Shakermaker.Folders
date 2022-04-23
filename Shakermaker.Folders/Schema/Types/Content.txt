@@ -1,0 +1,4 @@
+﻿In this folder you can add scripts with changes related to the types:
+- View creation scripts
+- View alter scripts
+- View drop scripts

@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Choose>
+    <When Condition="!Exists('$(ProjectDir)\Code\Functions\')">
+      <ItemGroup>
+        <Folder Include="Code\Functions\" />
+      </ItemGroup>
+    </When>
+  </Choose>
+  <Choose>
+    <When Condition="!Exists('$(ProjectDir)\Code\Procedures\')">
+      <ItemGroup>
+        <Folder Include="Code\Procedures\" />
+      </ItemGroup>
+    </When>
+  </Choose>
+  <Choose>
+    <When Condition="!Exists('$(ProjectDir)\Data\Environments\')">
+      <ItemGroup>
+        <Folder Include="Data\Environments\" />
+      </ItemGroup>
+    </When>
+  </Choose>
+  <Choose>
+    <When Condition="!Exists('$(ProjectDir)\Data\Fixes\')">
+      <ItemGroup>
+        <Folder Include="Data\Fixes\" />
+      </ItemGroup>
+    </When>
+  </Choose>
+  <Choose>
+    <When Condition="!Exists('$(ProjectDir)\Data\Settings\')">
+      <ItemGroup>
+        <Folder Include="Data\Settings\" />
+      </ItemGroup>
+    </When>
+  </Choose>
+  <Choose>
+    <When Condition="!Exists('$(ProjectDir)\Schema\Sequences\')">
+      <ItemGroup>
+        <Folder Include="Schema\Sequences\" />
+      </ItemGroup>
+    </When>
+  </Choose>
+  <Choose>
+    <When Condition="!Exists('$(ProjectDir)\Schema\Synonyms\')">
+      <ItemGroup>
+        <Folder Include="Schema\Synonyms\" />
+      </ItemGroup>
+    </When>
+  </Choose>
+  <Choose>
+    <When Condition="!Exists('$(ProjectDir)\Schema\Tables\')">
+      <ItemGroup>
+        <Folder Include="Schema\Tables\" />
+      </ItemGroup>
+    </When>
+  </Choose>
+  <Choose>
+    <When Condition="!Exists('$(ProjectDir)\Schema\Types\')">
+      <ItemGroup>
+        <Folder Include="Schema\Types\" />
+      </ItemGroup>
+    </When>
+  </Choose>
+  <Choose>
+    <When Condition="!Exists('$(ProjectDir)\Schema\Views\')">
+      <ItemGroup>
+        <Folder Include="Schema\Views\" />
+      </ItemGroup>
+    </When>
+  </Choose>
+</Project>

@@ -1,0 +1,4 @@
+﻿In this folder you can add scripts with changes related to the store procedures:
+- Store Procedure creation scripts
+- Store Procedure alter scripts
+- Store Procedure drop scripts

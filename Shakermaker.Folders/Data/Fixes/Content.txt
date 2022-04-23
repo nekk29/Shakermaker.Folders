@@ -1,0 +1,6 @@
+﻿In this folder you can add scripts with changes in the data e.g.:
+- Insert records scripts
+- Update records scripts
+- Delete records scripts
+- Truncate table scripts
+- Data fixes in general

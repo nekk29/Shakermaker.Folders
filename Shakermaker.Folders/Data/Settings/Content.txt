@@ -1,0 +1,6 @@
+﻿In this folder you can add scripts with changes in the data related to the settings e.g.:
+- App Settings
+- Modules
+- Roles
+- Menus
+If there are different settings values per environment, put them in the "Environments" folder

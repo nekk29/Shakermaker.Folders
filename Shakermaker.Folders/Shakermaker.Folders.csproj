@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>1.0.0</Version>
+    <Authors>Eleven Technologies</Authors>
+    <Description>Folders structure for Shakermaker database continuous integration tool</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="Package.targets">
+      <Pack>True</Pack>
+      <PackagePath>build\$(PackageId).targets</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
