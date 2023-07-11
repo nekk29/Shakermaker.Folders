@@ -2,7 +2,7 @@
 DATABASE CONTINUOUS INTEGRATION / CONTINUOUS DELIVERY USAGE:
 ===============================================================================================================
 
-The following folders structure is used to deploy database changes for postgres CI/CD:
+The following folders structure is used to deploy database CI/CD changes:
 
 |-- Code:
 | |-- Functions:	In this folder you can add scripts with changes related to the functions:
